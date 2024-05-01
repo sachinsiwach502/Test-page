@@ -419,6 +419,14 @@
     background-repeat: no-repeat;
 }
 
+.trasure-bg-img {
+    background-image: url("../img/png/treasur-bg-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .nft-bg-img {
     background-image: url("../img/png/sec-2-bg-img.png");
     background-position: center;
@@ -449,17 +457,47 @@
     gap: 40px;
 }
 
+.dots {
+    width: 7px;
+    height: 7px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+}
+
 .py_19 {
     padding-top: 19px;
     padding-bottom: 19px;
+}
+
+.pb_10 {
+    padding-bottom: 10px;
+}
+
+.pt_11 {
+    padding-top: 11px;
 }
 
 .gap_29 {
     gap: 29px;
 }
 
+.mt_41 {
+    margin-top: 41px;
+}
+
 .pt_20 {
     padding-top: 20px;
+}
+
+.pt_300 {
+    padding-top: 300px;
+}
+
+.pb_200 {
+    padding-bottom: 200px;
+}
+.traser-bg-img{
+    transform: translate(150px, 250px);
 }
 
 .join-btn {
