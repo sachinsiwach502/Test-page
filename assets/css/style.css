@@ -433,6 +433,13 @@
     background-repeat: no-repeat;
 }
 
+.token-bg-img {
+    background-image: url("../img/png/glit-token-bg-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*------------------------------- normal css ---------------------------*/
 .nav-bg-color {
     background: rgba(0, 0, 0, 0.1);
@@ -492,6 +499,11 @@
     padding-bottom: 230px;
 }
 
+.py_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
 
 .gif_border {
     position: relative;
@@ -546,4 +558,24 @@
     background-position: center;
     background-size: cover;
     transform: translate(-170px, -190px);
+}
+
+.token-card {
+    max-width: 312px;
+    min-height: 181px;
+    border: 1px solid;
+    border-radius: 13px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(196, 196, 196, 0) 100%, rgba(255, 255, 255, 0.03) 100%);
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.token-card:hover {
+    box-shadow: 0px 8px 30px 0px rgba(27, 171, 254, 1);
+    border: 1px solid;
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.pt_60 {
+    padding-top: 60px;
 }
