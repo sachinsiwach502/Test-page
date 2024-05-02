@@ -134,4 +134,6 @@ setTimeout(() => {
 
 
 // aos--------------------
-AOS.init();
+AOS.init({
+    durattion: 1200,
+});
