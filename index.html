@@ -17,11 +17,11 @@
 </head>
 
 <body>
-    <header class="hero-sec-bg-img min-vh-100 d-flex flex-column" id="hero_sec">
+    <header class="hero-sec-bg-img d-flex flex-column" id="hero_sec">
         <nav class="nav-bg-color">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between py_19">
-                    <div class="curser navIcon"><img src="./assets/img/png/nav-icon.png" alt="fav icon" class="w-100">
+                    <div class="curser"><img src="./assets/img/png/nav-icon.png" alt="fav icon" class="max_w_200">
                     </div>
 
                     <div class="d-flex align-items-center gap_29">
@@ -63,11 +63,14 @@
 
         <!----------------------------- hero section ------------------>
         <div class="container d-flex flex-grow-1 align-items-center justify-content-end flex-column pb_129">
-            <h1 class="text-center fs-72 fw-4 lh-91 text-white">There are games... And then
+            <h1 class="text-center fs-72 fw-4 lh-91 text-white md-fs-lh-52-72 md_pt_200">There are games... And then
                 there are <span class="primary-color">Gilded</span> Games</h1>
 
-            <p class="ff-j fs-36 fw-6 lh-45 text-center mb-0 text-white pt_20"><span class="primary-color"> 19d :</span>
-                10hr : 2min : 55sec</p>
+            <!-- <p class="ff-j fs-36 fw-6 lh-45 text-center mb-0 text-white pt_20"><span class="primary-color"> 19d :</span>
+                10hr : 2min : 55sec</p> -->
+            <!-- <p id="countdown" class="ff-j fs-36 fw-6 lh-45 text-center mb-0 text-white pt_20"></p> -->
+            <div id="countdown" class="ff-j fs-36 fw-6 lh-45 text-center mb-0 text-white pt_20"></div>
+
             <p class="ff-j fs-18 lh-23 text-center text-white mb-0">Remaining Presale Time</p>
             <div class="d-flex align-items-center justify-content-center gap-4 pt-4 flex-md-nowrap flex-wrap">
                 <button class="bttn">
@@ -87,7 +90,7 @@
             <div class="container pt_105 pb_200 justify-content-between">
                 <div class="row d-flex align-items-center flex-column-reverse flex-lg-row">
                     <div class="col-lg-6 col-12 flex-column-reverse">
-                        <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-lg-start text-center"> <span
+                        <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-lg-start text-center md-fs-h-40-54"> <span
                                 class="nft-color">NFT</span> Utility
                         </h1>
                         <p class="mb-0 ff-p fw-4 fs-20 lh-35 opacity-75 text-white pt-3 text-lg-start text-center">Lorem
@@ -111,7 +114,7 @@
         <!--------------------------- play to earn -------------------------->
         <section class="bg-black">
             <div class="container d-flex align-items-center  justify-content-between flex-column">
-                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center"> Play To <span
+                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center md-fs-h-40-54"> Play To <span
                         class="primary-color">Earn</span></h1>
 
                 <p class="mb-0 ff-p fw-4 fs-20 lh-35 opacity-75 text-white pt-3 text-center max-w-1024">Gilded World
@@ -130,7 +133,8 @@
         <section class="commas-bg-img mt-110">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-center">
-                    <h2 class="max-w-940 text-center fw-4 ff-j fs-40 lh-61 py_230 text-white commas-txt">
+                    <h2
+                        class="max-w-940 text-center fw-4 ff-j fs-40 lh-61 py_230 text-white commas-txt md-fs-lh-32-40 lg_py_80">
                         Gilded Games is a new type of gaming platform, partially owned and operated by its players. Earn
                         Gild tokens by playing
                         and use them to decide the future of the game!
@@ -142,7 +146,8 @@
         <!---------------- gilt token info ----------------------->
         <section class="token-bg-img">
             <div class="container py_130">
-                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center"> <span class="nft-color">$GILD </span>
+                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center md-fs-h-40-54"> <span
+                        class="nft-color">$GILD </span>
                     Token Info
                 </h1>
                 <div class="row pt_60 ">
@@ -179,7 +184,8 @@
 
         <!------------------------ roadmap ---------------------------->
         <section class="min-h-355 ">
-            <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center"><span class="nft-color">Road</span>map
+            <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center md-fs-h-40-54"><span
+                    class="nft-color">Road</span>map
             </h1>
             <div class="container d-lg-block d-none">
                 <div class="timelineLine position-relative">
@@ -341,12 +347,12 @@
             <div class="position-absolute traser-bg-img end-0 d-none d-xl-block">
                 <img src="./assets/img/png/gold-bg-img.png" alt="gold-bg-img" class="w-100">
             </div>
-            <div class="container pt_300 pb_200">
+            <div class="container pt_300 pb_200 lg-pt-100 lg-pb-100">
                 <div class="row justify-content-between align-items-center flex-column-reverse flex-lg-row">
                     <div
                         class="col-lg-5 d-flex d-lg-block align-items-center justify-content-between pt-4 pt-lg-0 flex-column">
-                        <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 pb_10"> Buy On <span
-                                class="primary-color">Uniswap</span></h1>
+                        <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 pb_10 md-fs-h-40-54 text-lg-start text-center">
+                            Buy On <span class="primary-color">Uniswap</span></h1>
                         <div class="d-flex align-items-center gap-3 pt_11">
                             <div class="fw-4 lh-35 ff-j text-white dots"></div>
                             <p class="fw-4 fs-20 lh-35 ff-j text-white mb-0">100,000+ Airdrop</p>
@@ -375,7 +381,8 @@
         <!------------------------------- powered by ------------------------------>
         <section class="token-bg-img">
             <div class="container py_130">
-                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center"> <span class="nft-color">Powered </span>
+                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 text-center md-fs-h-40-54"> <span
+                        class="nft-color">Powered </span>
                     By:
                 </h1>
                 <div class="row pt_60">
@@ -413,10 +420,11 @@
 
     <footer class="footer-bg-img">
         <!----------------------- faq -------------------------------------->
-        <section class="py_230">
+        <section class="py_230 lg_py_80">
             <div class="container_faq">
-                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 pb_10 text-center"> Frequently Asked <span
-                        class="primary-color">Questions</span></h1>
+                <h1 class="ff-j fw-7 fs-48 lh-61 text-white mb-0 pb_10 text-center md-fs-h-40-54"> Frequently Asked
+                    <span class="primary-color">Questions</span>
+                </h1>
                 <div class="full_accrodian_part mt-4">
                     <div class="clickAblePart d-flex justify-content-between">
                         <h1 class="text-white fs-18 fw-5 lh-27 ff-p mb-0">Q.1 Lectus tristique turpis id?</h1>
