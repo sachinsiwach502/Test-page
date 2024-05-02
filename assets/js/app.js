@@ -52,6 +52,7 @@ accordians.forEach(accordItem => {
     });
 });
 
+// menubar ----------------
 
 let body = document.body;
 let menuIcon = document.querySelector(".menuIcon");
@@ -62,7 +63,6 @@ let line_3 = document.querySelector(".third-line");
 
 function cross() {
     line_2.classList.add("d-none");
-    // line_1.classList.add("transform-origin-center-center");
     line_1.classList.add("position-relative");
     line_1.style.top = "12px";
     line_1.style.left = "2px";
