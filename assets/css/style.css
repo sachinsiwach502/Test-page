@@ -468,6 +468,21 @@
     left: 60%;
 }
 
+.preloader_logo {
+    animation: logo 2s infinite;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 105%;
+    top: 0;
+    right: 0;
+    /* background: var(--img-bg-color); */
+    background-color: var(--black-color);
+    z-index: 100;
+}
+
 
 
 .min-h-355 {
@@ -919,6 +934,24 @@ input::placeholder {
     border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
 }
 
+/*------------------------ animation -----------------------------------*/
+@keyframes logo {
+    .25% {
+        transform: translateY(20px);
+    }
+
+    .50% {
+        transform: translateX(20px);
+    }
+
+    .75% {
+        transform: translateY(-20px);
+    }
+
+    .100% {
+        transform: translateX(20px);
+    }
+}
 
 /*--------------------- media screen --------------------------*/
 @media (max-width:1200px) {
